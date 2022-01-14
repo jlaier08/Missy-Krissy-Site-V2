@@ -1,0 +1,193 @@
+html, body {
+  font-family: Overpass Mono, sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  overflow-x: hidden;
+  text-align: left;
+}
+
+h1 {
+  font-family: Merriweather Sans;
+  color: #bf1308;
+  font-size: 7vw;
+  line-height: 1;
+  position: absolute;
+  top: 10%;
+  margin: auto 7%;
+  width: 100vw;
+}
+
+h2 {
+  font-weight: 600;
+  margin: 5% 0 10%;
+  font-size: 7vw;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover, .footer-icons:hover {
+  color: #bf1308;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 7% 7% 15%;
+}
+
+.colored-section {
+  background-color: #492440;
+  color: #fff;
+}
+
+.sand-section {
+  background-color: #d0cabc;
+  color: #bf1308;
+}
+
+
+/* Navigation Bar */
+
+.navbar {
+  position: relative;
+  text-align: center;
+  z-index: 2;
+}
+
+#title .container-fluid {
+  padding: .5% 5%;
+}
+
+@media (max-width: 750px) {
+  .navbar-brand {
+    font-size: 1rem;
+  }
+}
+
+/* Home Section */
+
+#home .container-fluid {
+  padding: 0;
+  position: relative;
+}
+
+.home-bg, .contactbg {
+  position: relative;
+  width: 98.9vw;
+
+}
+
+.home-h1-text {
+  color: #fff;
+  font-family: Dokdo;
+  font-size: 5vw;
+}
+
+@media (max-width: 750px) {
+
+  h1 {
+    color: #fff;
+    font-size: 2.5rem;
+    top: 4%;
+  }
+
+  .home-h1-text {
+    color: #bf1308;
+    font-size: 2.2rem;
+  }
+}
+
+/* Music Section */
+
+.videoWrapper {
+  height: 0;
+  position: relative;
+  padding-bottom: 56.25%;
+}
+
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.song-name {
+  margin-top: 5%;
+  font-size: 5vw;
+  font-weight: 900;
+}
+
+.director-name {
+  font-size: 3vw;
+  font-weight: normal;
+}
+
+/* Merch Section */
+
+#merch {
+  font-size: 3vw;
+  position: relative;
+}
+
+.item-img {
+  width: 100%;
+}
+
+@media (max-width: 975px) {
+  .item-img {
+    width: 75%;
+  }
+}
+
+.caption {
+  margin: 0 3% 10%;
+}
+
+/* Contact Section */
+
+#contact .container-fluid {
+  padding: 0;
+  position: relative;
+}
+
+.contact-text {
+  margin: auto 7%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 3vw;
+  z-index: 1;
+}
+
+@media (max-width: 975px) {
+  .contact-text h2 {
+    font-size: 5.5vw;
+  }
+
+  .contact-text h3 {
+    font-size: 3.5vw;
+  }
+}
+
+/* Footer Section*/
+
+.footer-icons {
+  color: #492440;
+  margin: 3% 5% 5% 0;
+}
+
+.copyright-text {
+  margin-top: 3%;
+  font-size: 1rem;
+  font-weight: 900;
+}
+
+@media (max-width: 975px) {
+  .copyright-text {
+    font-size: 2.5vw;
+  }
